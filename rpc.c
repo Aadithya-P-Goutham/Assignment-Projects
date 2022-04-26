@@ -38,42 +38,49 @@ int main()
         printf("AI drew Sciccors! \n");
         
         //Logic for draw
-        if (ai==player){
+        if (ai==player)
+        {
             printf("It's a draw! \n");
             printf("\n");
         }
 
         //Logic for Rock
-        else if ((ai==0)&&(player==1)){
+        else if ((ai==0)&&(player==1))
+        {
             printf("Your point! \n");
             printf("\n");
             score1+=1;
         }
-        else if ((ai==0)&&(player==2)){
+        else if ((ai==0)&&(player==2))
+        {
             printf("AI's point! \n");
             printf("\n");
             score2+=1;
         }
 
         //Logic for Paper
-        else if ((ai==1)&&(player==0)){
+        else if ((ai==1)&&(player==0))
+        {
             printf("AI's point! \n");
             printf("\n");
             score2+=1;
         }
-        else if ((ai==1)&&(player==2)){
+        else if ((ai==1)&&(player==2))
+        {
             printf("Your point! \n");
             printf("\n");
             score1+=1;
         }
 
         //Logic for Scissor
-        else if ((ai==2)&&(player==0)){
+        else if ((ai==2)&&(player==0))
+        {
             printf("Your point! \n");
             printf("\n");
             score1+=1;
         }
-        else if ((ai==2)&&(player==1)){
+        else if ((ai==2)&&(player==1))
+        {
             printf("AI's point! \n");
             printf("\n");
             score2+=1;
